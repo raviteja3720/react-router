@@ -55,16 +55,64 @@ header nav a:active {
 }
 
 /* page content */
+main {
+    min-width: 1200px;
+    margin: 40px auto;
+}
 
 
 /* help layout */
+.help-layout nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+
+}
+
+.help-layout nav a {
+    padding: 10px;
+    bottom: 2px solid white;
+    background-repeat: 4px;
+    text-decoration: none;
+
+}
+
+.help-layout nav a:hover{
+    background-color: var(--primary);
+}
+.help-layout nav a:active{
+    background-color: var(--primary);
+}
 
 
 /* faq */
 
+.faq .question{
+    background: #000;
+    padding: 5px 20px;
+    background-repeat: 4px;
+    margin: 20px 0;
+}
+
 
 /* careers list */
+form{
+    margin-top: 30px;
+}
 
+form input, form textarea{
+    margin-bottom: 30px;
+    padding: 8px;
+    background-repeat: 4px;
+    bottom: 0;
+    width: 300px;
+    color: var(--secondary);
+
+}
+ form label span {
+    margin-bottom: 10px;
+ }
 
 /* careers details */
 
